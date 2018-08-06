@@ -1,6 +1,6 @@
 all : arp_spoof
 
-arp_spoof: main.o
+arp_spoof: arp_spoof.o
 	g++ -g -o arp_spoof arp_spoof.o -lpcap
 
 arp_spoof.o:
